@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2? family= Edu+SA+Beginner & display=swap');
+
+header{
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(199, 169, 227);
+    margin: 10px 0px 10px 0px;
+}
+
+header ul{
+
+    list-style: none;
+    display: flex;
+    flex direction: row;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+a:link {
+    align-items: center;
+    text-decoration: none;
+}
+header ul li {
+    margin: 20px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+    font-size:x-large;
+    align-items: center;
+}
+header img {
+    align-items: baseline;
+    width: 800px;
+    height: 250px;
+    margin: 15px;
+}
+
+.presentacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.presentacion h1{
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    color: rgb(223, 143, 199);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.presentacion p {
+    width: 80%;
+    align-items: center;
+    color: rgb(141, 202, 233);
+    font-size: 28px;
+    font-family: 'Edu SA Principiante', cursiva;
+    padding: 30px 0px 30px 0px;
+}
+
+
+.carrusel-images {
+    width: 100%;
+    height: 1000px;
+}
+
+.hk{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(174, 177, 175);
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    
+   
+}
+
+.hk ul{
+
+    list-style: none;
+    display: flex;
+    flex direction: row;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+a:link {
+    align-items: center;
+    text-decoration: none;
+}
+.hk ul li {
+    margin: 20px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(226, 54, 24);
+    font-size:x-large;
+    align-items: center;
+}
+
+.hk img {
+    width: 550px;
+    height: 250px;
+    margin: 15px;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+
+.infokillers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infokillers h1{
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    color: rgb(103, 11, 11);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.infokillers h2 {
+    width: 80%;
+    align-items: center;
+    color: rgb(36, 27, 70);
+    font-size: 28px;
+    font-family: 'Edu SA Principiante', cursiva;
+    padding: 30px 0px 30px 0px;
+}
+
+#contenido1 {
+    width: 80%;
+    align-items: center;
+    color: rgb(137, 7, 135);
+    font-size: 28px;
+    font-family: 'Edu SA Principiante', cursiva;
+    padding: 15px 0px 30px 0px;
+}
+
+.canciones {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(145, 92, 92);
+}
+
+.letrak {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    text-align:justify;
+}
+
+.letrak img {
+border-style: double;
+    flex: center;
+    width: 300px;
+    height: 300px;
+    justify-content:space-between;
+    margin: 10px 10px 10px 10px;
+}
+
+.letrak h1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.letrak h2{
+    font-size: 32px;
+    font-family: fantasy;
+    color: rgb(24, 58, 58);
+}
+
+.letrak p{
+    font-size: 28;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(28, 27, 27);
+}
+
+.hs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(228, 207, 134);
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    
+   
+}
+
+.hs ul{
+
+    list-style: none;
+    display: flex;
+    flex direction: row;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+a:link {
+    align-items: center;
+    text-decoration: none;
+}
+.hs ul li {
+    margin: 20px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(90, 132, 222);
+    font-size:x-large;
+    align-items: center;
+}
+
+.hs img {
+    width: 550px;
+    height: 250px;
+    margin: 15px;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+
+.infosidhartha {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infosidhartha h1{
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    color: rgb(55, 22, 147);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.infosidhartha h2 {
+    width: 80%;
+    align-items: center;
+    color: rgb(31, 26, 49);
+    font-size: 28px;
+    font-family: 'Edu SA Principiante', cursiva;
+    padding: 30px 0px 30px 0px;
+}
+
+#contenido2 {
+    width: 80%;
+    align-items: center;
+    color: rgb(136, 200, 218);
+    font-size: 28px;
+    font-family: 'Edu SA Principiante', cursiva;
+    padding: 15px 0px 30px 0px;
+}
+
+.cancionessid {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(234, 221, 139);
+}
+
+.letrasid {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    text-align:justify;
+}
+
+.letrasid img {
+border-style: double;
+    flex: center;
+    width: 300px;
+    height: 300px;
+    justify-content:space-between;
+    margin: 10px 10px 10px 10px;
+}
+
+.letrasid h1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.letrasid h2{
+    font-size: 32px;
+    font-family: fantasy;
+    color: rgb(65, 200, 200);
+}
+
+.letrasid p{
+    font-size: 28;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(14, 14, 14);
+}
+
+
+.hcs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(172, 193, 217);
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    
+   
+}
+
+.hcs ul{
+
+    list-style: none;
+    display: flex;
+    flex direction: row;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+a:link {
+    align-items: center;
+    text-decoration: none;
+}
+.hcs ul li {
+    margin: 20px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(90, 132, 222);
+    font-size:x-large;
+    align-items: center;
+}
+
+.hcs img {
+    width: 550px;
+    height: 250px;
+    margin: 15px;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+
+.infoscamilo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoscamilo h1{
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    color: rgb(216, 60, 206);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.infoscamilo h2 {
+    width: 80%;
+    align-items: center;
+    color: rgb(31, 26, 49);
+    font-size: 28px;
+    font-family: 'Edu SA Principiante', cursiva;
+    padding: 30px 0px 30px 0px;
+}
+
+#contenido3 {
+    width: 80%;
+    align-items: center;
+    color: rgb(236, 168, 236);
+    font-size: 28px;
+    font-family: 'Edu SA Principiante', cursiva;
+    padding: 15px 0px 30px 0px;
+}
+
+.cancionescs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(91, 177, 206);
+}
+
+.letracs {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    text-align:justify;
+}
+
+.letracs img {
+border-style: double;
+    flex: center;
+    width: 300px;
+    height: 300px;
+    justify-content:space-between;
+    margin: 10px 10px 10px 10px;
+}
+
+.letracs h1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.letracs h2{
+    font-size: 32px;
+    font-family: fantasy;
+    color: rgb(224, 119, 227);
+}
+
+.letracs p{
+    font-size: 28;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(14, 14, 14);
+}
+
+.hz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(41, 190, 133);
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    
+   
+}
+
+.hz ul{
+
+    list-style: none;
+    display: flex;
+    flex direction: row;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+a:link {
+    align-items: center;
+    text-decoration: none;
+}
+.hz ul li {
+    margin: 20px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(9, 92, 41);
+    font-size:x-large;
+    align-items: center;
+}
+
+.hz img {
+    width: 550px;
+    height: 250px;
+    margin: 15px;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+
+.infozoe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infozoe h1{
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    color: rgb(124, 16, 16);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.infozoe h2 {
+    width: 80%;
+    align-items: center;
+    color: rgb(31, 26, 49);
+    font-size: 28px;
+    font-family: 'Edu SA Principiante', cursiva;
+    padding: 30px 0px 30px 0px;
+}
+
+#contenido4 {
+    width: 80%;
+    align-items: center;
+    color: rgb(63, 38, 205);
+    font-size: 28px;
+    font-family: 'Edu SA Principiante', cursiva;
+    padding: 15px 0px 30px 0px;
+}
+
+.cancionesz {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(22, 177, 170);
+}
+
+.letraz {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    text-align:justify;
+}
+
+.letraz img {
+border-style: double;
+    flex: center;
+    width: 300px;
+    height: 300px;
+    justify-content:space-between;
+    margin: 10px 10px 10px 10px;
+}
+
+.letraz h1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.letraz h2{
+    font-size: 32px;
+    font-family: fantasy;
+    color: rgb(18, 116, 34);
+}
+
+.letraz p{
+    font-size: 28;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(14, 14, 14);
+}
+
+.hi{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: rgb(20, 20, 20);
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    
+   
+}
+
+.enlaceinterpol{
+    justify-content: left;
+    width: 100%;
+}
+
+.hi ul{
+
+    list-style: none;
+    display: flex;
+    flex direction: row;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+a:link {
+    align-items: center;
+    text-decoration: none;
+}
+.hi ul li {
+    margin: 20px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(178, 45, 45);
+    font-size:x-large;
+    align-items: center;
+}
+
+.hi img {
+    width: 550px;
+    height: 250px;
+    margin: 15px;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+
+.infointer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infointer h1{
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    color: rgb(22, 20, 20);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.infointer h2 {
+    width: 80%;
+    align-items: center;
+    color: rgb(227, 54, 54);
+    font-size: 28px;
+    font-family: 'Edu SA Principiante', cursiva;
+    padding: 30px 0px 30px 0px;
+}
+
+#contenido5 {
+    width: 80%;
+    align-items: center;
+    color: rgb(16, 16, 15);
+    font-size: 28px;
+    font-family: 'Edu SA Principiante', cursiva;
+    padding: 15px 0px 30px 0px;
+}
+
+.cancionesinter {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(10, 11, 11);
+}
+
+.letrainter {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    text-align:justify;
+}
+
+.letrainter img {
+border-style: double;
+    flex: center;
+    width: 300px;
+    height: 300px;
+    justify-content:space-between;
+    margin: 10px 10px 10px 10px;
+}
+
+.letrainter h1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.letrainter h2{
+    font-size: 32px;
+    font-family: fantasy;
+    color: rgb(218, 32, 32);
+}
+
+.letrainter p{
+    font-size: 28;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(117, 173, 233);
+}
