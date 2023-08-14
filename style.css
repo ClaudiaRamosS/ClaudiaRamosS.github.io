@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2? family= Edu+SA+Beginner & display=swap');
 
-header{
+header {
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(199, 169, 227);
     margin: 10px 0px 10px 0px;
 }
 
-header ul{
+header ul {
 
     list-style: none;
     display: flex;
@@ -20,14 +20,16 @@ a:link {
     align-items: center;
     text-decoration: none;
 }
+
 header ul li {
     margin: 20px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aqua;
-    font-size:x-large;
+    font-size: x-large;
     align-items: center;
 }
+
 header img {
     align-items: baseline;
     width: 800px;
@@ -43,18 +45,19 @@ header img {
 
 }
 
-.presentacion h1{
+.presentacion h1 {
     padding: 10px 0px 10px 0px;
     align-items: center;
     color: rgb(223, 143, 199);
     font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .presentacion p {
     width: 80%;
     align-items: center;
-    color: rgb(141, 202, 233);
-    font-size: 28px;
+    color: rgb(190, 125, 200);
+    font-size: 26px;
     font-family: 'Edu SA Principiante', cursiva;
     padding: 30px 0px 30px 0px;
 }
@@ -65,18 +68,26 @@ header img {
     height: 1000px;
 }
 
-.hk{
+ul {
+   justify-content: left;
+    font-size: 28px;
+    font-style: oblique;
+    color: rgb(135, 207, 236);
+
+}
+
+.hk {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(174, 177, 175);
     margin: 10px 0px 10px 0px;
     width: 100%;
-    
-   
+
+
 }
 
-.hk ul{
+.hk ul {
 
     list-style: none;
     display: flex;
@@ -89,12 +100,13 @@ a:link {
     align-items: center;
     text-decoration: none;
 }
+
 .hk ul li {
     margin: 20px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(226, 54, 24);
-    font-size:x-large;
+    font-size: x-large;
     align-items: center;
 }
 
@@ -103,7 +115,7 @@ a:link {
     height: 250px;
     margin: 15px;
     margin: 10px 10px 10px 10px;
-    
+
 }
 
 
@@ -114,7 +126,7 @@ a:link {
     align-items: center;
 }
 
-.infokillers h1{
+.infokillers h1 {
     padding: 10px 0px 10px 0px;
     align-items: center;
     color: rgb(103, 11, 11);
@@ -145,6 +157,7 @@ a:link {
     flex-direction: row;
     width: 100%;
     background-color: rgb(145, 92, 92);
+    margin: 15px 15px 15px 15px;
 }
 
 .letrak {
@@ -155,48 +168,48 @@ a:link {
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    text-align:justify;
+    text-align: justify;
 }
 
 .letrak img {
-border-style: double;
+    border-style: double;
     flex: center;
     width: 300px;
     height: 300px;
-    justify-content:space-between;
+    justify-content: space-between;
     margin: 10px 10px 10px 10px;
 }
 
-.letrak h1{
+.letrak h1 {
     font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aliceblue;
 }
 
-.letrak h2{
+.letrak h2 {
     font-size: 32px;
     font-family: fantasy;
     color: rgb(24, 58, 58);
 }
 
-.letrak p{
+.letrak p {
     font-size: 28;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(28, 27, 27);
 }
 
-.hs{
+.hs {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(228, 207, 134);
     margin: 10px 0px 10px 0px;
     width: 100%;
-    
-   
+
+
 }
 
-.hs ul{
+.hs ul {
 
     list-style: none;
     display: flex;
@@ -209,12 +222,13 @@ a:link {
     align-items: center;
     text-decoration: none;
 }
+
 .hs ul li {
     margin: 20px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(90, 132, 222);
-    font-size:x-large;
+    font-size: x-large;
     align-items: center;
 }
 
@@ -223,7 +237,7 @@ a:link {
     height: 250px;
     margin: 15px;
     margin: 10px 10px 10px 10px;
-    
+
 }
 
 
@@ -234,7 +248,7 @@ a:link {
     align-items: center;
 }
 
-.infosidhartha h1{
+.infosidhartha h1 {
     padding: 10px 0px 10px 0px;
     align-items: center;
     color: rgb(55, 22, 147);
@@ -265,6 +279,7 @@ a:link {
     flex-direction: row;
     width: 100%;
     background-color: rgb(234, 221, 139);
+    margin: 15px 15px 15px 15px;
 }
 
 .letrasid {
@@ -275,49 +290,49 @@ a:link {
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    text-align:justify;
+    text-align: justify;
 }
 
 .letrasid img {
-border-style: double;
+    border-style: double;
     flex: center;
     width: 300px;
     height: 300px;
-    justify-content:space-between;
+    justify-content: space-between;
     margin: 10px 10px 10px 10px;
 }
 
-.letrasid h1{
+.letrasid h1 {
     font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aliceblue;
 }
 
-.letrasid h2{
+.letrasid h2 {
     font-size: 32px;
     font-family: fantasy;
     color: rgb(65, 200, 200);
 }
 
-.letrasid p{
+.letrasid p {
     font-size: 28;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(14, 14, 14);
 }
 
 
-.hcs{
+.hcs {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(172, 193, 217);
     margin: 10px 0px 10px 0px;
     width: 100%;
-    
-   
+
+
 }
 
-.hcs ul{
+.hcs ul {
 
     list-style: none;
     display: flex;
@@ -330,12 +345,13 @@ a:link {
     align-items: center;
     text-decoration: none;
 }
+
 .hcs ul li {
     margin: 20px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(90, 132, 222);
-    font-size:x-large;
+    font-size: x-large;
     align-items: center;
 }
 
@@ -344,7 +360,7 @@ a:link {
     height: 250px;
     margin: 15px;
     margin: 10px 10px 10px 10px;
-    
+
 }
 
 
@@ -355,7 +371,7 @@ a:link {
     align-items: center;
 }
 
-.infoscamilo h1{
+.infoscamilo h1 {
     padding: 10px 0px 10px 0px;
     align-items: center;
     color: rgb(216, 60, 206);
@@ -386,6 +402,7 @@ a:link {
     flex-direction: row;
     width: 100%;
     background-color: rgb(91, 177, 206);
+    margin: 15px 15px 15px 15px;
 }
 
 .letracs {
@@ -396,48 +413,48 @@ a:link {
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    text-align:justify;
+    text-align: justify;
 }
 
 .letracs img {
-border-style: double;
+    border-style: double;
     flex: center;
     width: 300px;
     height: 300px;
-    justify-content:space-between;
+    justify-content: space-between;
     margin: 10px 10px 10px 10px;
 }
 
-.letracs h1{
+.letracs h1 {
     font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aliceblue;
 }
 
-.letracs h2{
+.letracs h2 {
     font-size: 32px;
     font-family: fantasy;
     color: rgb(224, 119, 227);
 }
 
-.letracs p{
+.letracs p {
     font-size: 28;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(14, 14, 14);
 }
 
-.hz{
+.hz {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(41, 190, 133);
     margin: 10px 0px 10px 0px;
     width: 100%;
-    
-   
+
+
 }
 
-.hz ul{
+.hz ul {
 
     list-style: none;
     display: flex;
@@ -450,12 +467,13 @@ a:link {
     align-items: center;
     text-decoration: none;
 }
+
 .hz ul li {
     margin: 20px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(9, 92, 41);
-    font-size:x-large;
+    font-size: x-large;
     align-items: center;
 }
 
@@ -464,7 +482,7 @@ a:link {
     height: 250px;
     margin: 15px;
     margin: 10px 10px 10px 10px;
-    
+
 }
 
 
@@ -475,10 +493,10 @@ a:link {
     align-items: center;
 }
 
-.infozoe h1{
+.infozoe h1 {
     padding: 10px 0px 10px 0px;
     align-items: center;
-    color: rgb(124, 16, 16);
+    color: rgb(139, 110, 220);
     font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -506,6 +524,7 @@ a:link {
     flex-direction: row;
     width: 100%;
     background-color: rgb(22, 177, 170);
+    margin: 15px 15px 15px 15px;
 }
 
 .letraz {
@@ -516,53 +535,53 @@ a:link {
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    text-align:justify;
+    text-align: justify;
 }
 
 .letraz img {
-border-style: double;
+    border-style: double;
     flex: center;
     width: 300px;
     height: 300px;
-    justify-content:space-between;
+    justify-content: space-between;
     margin: 10px 10px 10px 10px;
 }
 
-.letraz h1{
+.letraz h1 {
     font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aliceblue;
 }
 
-.letraz h2{
+.letraz h2 {
     font-size: 32px;
     font-family: fantasy;
     color: rgb(18, 116, 34);
 }
 
-.letraz p{
+.letraz p {
     font-size: 28;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(14, 14, 14);
 }
 
-.hi{
+.hi {
     display: flex;
     flex-direction: row;
     justify-content: left;
     background-color: rgb(20, 20, 20);
     margin: 10px 0px 10px 0px;
     width: 100%;
-    
-   
+
+
 }
 
-.enlaceinterpol{
+.enlaceinterpol {
     justify-content: left;
     width: 100%;
 }
 
-.hi ul{
+.hi ul {
 
     list-style: none;
     display: flex;
@@ -575,12 +594,13 @@ a:link {
     align-items: center;
     text-decoration: none;
 }
+
 .hi ul li {
     margin: 20px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(178, 45, 45);
-    font-size:x-large;
+    font-size: x-large;
     align-items: center;
 }
 
@@ -589,7 +609,7 @@ a:link {
     height: 250px;
     margin: 15px;
     margin: 10px 10px 10px 10px;
-    
+
 }
 
 
@@ -600,7 +620,7 @@ a:link {
     align-items: center;
 }
 
-.infointer h1{
+.infointer h1 {
     padding: 10px 0px 10px 0px;
     align-items: center;
     color: rgb(22, 20, 20);
@@ -631,6 +651,7 @@ a:link {
     flex-direction: row;
     width: 100%;
     background-color: rgb(10, 11, 11);
+    margin: 15px 15px 15px 15px;
 }
 
 .letrainter {
@@ -641,32 +662,32 @@ a:link {
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    text-align:justify;
+    text-align: justify;
 }
 
 .letrainter img {
-border-style: double;
+    border-style: double;
     flex: center;
     width: 300px;
     height: 300px;
-    justify-content:space-between;
+    justify-content: space-between;
     margin: 10px 10px 10px 10px;
 }
 
-.letrainter h1{
+.letrainter h1 {
     font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aliceblue;
 }
 
-.letrainter h2{
+.letrainter h2 {
     font-size: 32px;
     font-family: fantasy;
     color: rgb(218, 32, 32);
 }
 
-.letrainter p{
+.letrainter p {
     font-size: 28;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(117, 173, 233);
 }
